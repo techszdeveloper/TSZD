@@ -1228,6 +1228,36 @@ header.hero {
   transition: background-color 0.3s ease;
 }
 
+/* Learn More Button Styling */
+.learn-more-btn {
+  background: var(--accent-color); /* Button background */
+  color: var(--contrast-color); /* Text color */
+  font-family: var(--heading-font); /* Custom font */
+  display: inline-block; /* Makes the button inline */
+  padding: 12px 40px; /* Inner spacing for the button */
+  font-size: 16px; /* Text size */
+  font-weight: 500; /* Text weight */
+  letter-spacing: 1px; /* Spacing between letters */
+  border-radius: 50px; /* Rounded corners */
+  transition: 0.5s; /* Smooth hover transition */
+  margin: 10px; /* Spacing around button */
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove any default borders */
+}
+
+/* Button Hover Effect */
+.learn-more-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+}
+
+/* Remove Background from Parent Section */
+#about-us {
+  background: none; /* Ensure no background color */
+  padding: 0; /* Reset padding */
+  margin: 0; /* Reset margin */
+  border: none; /* Remove borders */
+  text-align: center; /* Center the button horizontally */
+}
 
 
 /*--------------------------------------------------------------
