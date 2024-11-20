@@ -77,12 +77,16 @@
     <!-- About Section -->
     <section id="about" class="about section">
       <div class="container">
-          <h1><strong>About Us</strong></h1><br><br>
+        <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100"><br>
+          <h1><strong>About Us</strong></h1>
+        </div><br>
           <p>Techszdeveloper is a dynamic and innovative software development company focused on delivering cutting-edge digital solutions that empower businesses to thrive in an increasingly digital world. Founded with a vision to bridge the gap between technology and business, we specialize in providing top-notch web development, mobile app development, and custom software solutions tailored to meet the unique needs of each client. With a team of highly skilled developers, designers, and engineers, we combine creativity and technical expertise to deliver scalable, reliable, and secure digital products. At Techszdeveloper, we believe in the power of technology to transform businesses, streamline operations, and enhance user experiences. Our approach is rooted in collaboration, ensuring that we work closely with our clients to understand their goals and deliver solutions that drive success.</p>
           
           <p>We are passionate about staying ahead of the curve, constantly exploring new technologies and trends to ensure that our clients receive innovative solutions that are not only effective but also future-proof. Whether you're a startup looking to build a web presence or an established business seeking to scale with a custom software solution, Techszdeveloper is here to help bring your vision to life.</p>
           <br><br>
-          <h2><strong>Our Core Values</strong></h2>
+          <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100"><br>
+            <h1><strong>Our Core Values</strong></h1>
+          </div>
           <ul>
               <li><strong>Innovation:</strong> We thrive on creativity and innovation, continuously exploring new technologies to deliver exceptional solutions.</li>
               <li><strong>Quality:</strong> We are committed to delivering high-quality, reliable products that exceed our clients’ expectations.</li>
@@ -207,6 +211,114 @@
     </section>
     
        <!-- /Call To Action Section -->
+
+       <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>What Our Clients Say</h2>
+        <p>Hear from our clients about how Techszdeveloper has transformed their ideas into exceptional digital solutions.</p>
+    </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Techszdeveloper exceeded my expectations by delivering a cutting-edge solution tailored to my needs. Their professionalism and technical expertise are unmatched. I highly recommend their services!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/clients.png" class="testimonial-img" alt="">
+                  <h3>Priya M.</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Techszdeveloper exceeded all my expectations. Their innovative design and seamless functionality perfectly align with my business goals. Highly professional and efficient throughout the process!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/clients.png" class="testimonial-img" alt="">
+                  <h3>Mudassir Khan</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Techszdeveloper delivered exceptional service, combining innovative solutions with seamless execution. Their attention to detail and dedication made the entire process smooth and stress-free. Highly recommended!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/clients.png" class="testimonial-img" alt="">
+                  <h3>Abdullah</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Working with Techszdeveloper was a fantastic experience. Their expertise in delivering top-notch solutions made a significant impact on our project. Highly skilled and dedicated professionals who exceeded our expectations!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/clients.png" class="testimonial-img" alt="">
+                  <h3>Rashid</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
   </main>
 
   <footer id="footer" class="footer light-background">

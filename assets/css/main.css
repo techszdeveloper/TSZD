@@ -1228,61 +1228,6 @@ header.hero {
   transition: background-color 0.3s ease;
 }
 
-/* Responsive styles */
-@media (max-width: 1200px) {
-  .about .content h1 {
-    font-size: 2.25rem; /* Adjust font size for medium screens */
-  }
-
-  .about .content p {
-    font-size: 1.05rem; /* Adjust paragraph font size for medium screens */
-  }
-
-  .about .content ul li {
-    font-size: 1.1rem; /* Slightly smaller font size for list items */
-  }
-}
-
-@media (max-width: 768px) {
-  .about .content {
-    padding: 20px; /* Reduce padding on smaller screens */
-  }
-
-  .about .content h1 {
-    font-size: 1.75rem; /* Reduce heading size */
-  }
-
-  .about .content p {
-    font-size: 1rem; /* Adjust paragraph font size */
-  }
-
-  .about .content ul li {
-    font-size: 1rem; /* Adjust list item font size */
-  }
-
-  .about .content ul li i {
-    font-size: 1.25rem; /* Adjust icon size */
-  }
-}
-
-@media (max-width: 480px) {
-  .about .content h1 {
-    font-size: 1.5rem; /* Further reduce heading size */
-  }
-
-  .about .content p {
-    font-size: 0.95rem; /* Further reduce paragraph font size */
-  }
-
-  .about .content ul li {
-    font-size: 0.95rem; /* Further reduce list item font size */
-  }
-
-  .about .content ul li i {
-    font-size: 1.1rem; /* Adjust icon size for small screens */
-  }
-}
-
 
 
 /*--------------------------------------------------------------
