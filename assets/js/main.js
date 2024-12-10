@@ -155,3 +155,18 @@
 
 })();
 
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAkXQT8S8RXkSj77V1d1XgMG0_WPEBF6uY",
+  authDomain: "techszdeveloper-93720.firebaseapp.com",
+  projectId: "techszdeveloper-93720",
+  storageBucket: "techszdeveloper-93720.firebasestorage.app",
+  messagingSenderId: "598770725806",
+  appId: "1:598770725806:web:6918cee77e8e1322534e3f",
+  measurementId: "G-J78V9L87NJ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
